@@ -67,6 +67,15 @@ Future improvements and feature ideas for the project.
 
 ## UI/UX
 
+### Tooltips & Help
+
+- [ ] Add tooltips to clarify confusing parameters:
+  - **Offset DX/DY** vs **Click Spread**: Offset = fixed grid translation, Spread = random per-click variation
+  - Timing parameters (cooldown, jitter, delays)
+  - Economy fields
+- [ ] In-app help panel or "?" icons with explanations
+- [ ] First-run tutorial/wizard
+
 ### Accessibility
 - [ ] Keyboard navigation for all controls
 - [ ] High contrast theme
