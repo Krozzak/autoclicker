@@ -1107,6 +1107,9 @@ class App(tk.Tk):
         self._install_traces()
         self.update_previews()
 
+        # Delayed preview update after window is fully rendered
+        self.after(500, self.update_previews)
+
         # Window close handler
         self.protocol("WM_DELETE_WINDOW", self.on_close)
 
